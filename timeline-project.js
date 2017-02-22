@@ -1,6 +1,8 @@
-/*THIS TIMELINE PROJECT DISPLAYS QUESTIONS FOR THE USER TO ANSWER QUESTIONS ABOUT THEIR KEY LIFE EVENTS.
-THE ANSWERS ARE THEN USED TO CREATE SENTENCES WHICH ARE ADDED TO A "LIFE TIMELINE" THAT IS DISPLAYED
-IN THE ABOVE CONTAINER*/
+/****************************PROJECT DESCRIPTION**********************************************
+This timeline project displays questions for the user to answer about their key life events. 
+The answers are then used to create sentences which are added to a "life timeline" that is displayed
+in the above container.
+*********************************************************************************************/
 
 //Make a set of categories
 var categorySet = {
