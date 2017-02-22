@@ -42,9 +42,9 @@ Category.prototype.toHTML = function(){
     return myHTML;
 }
 
-//Constructor for questions which will be pushed into a Category's questionArray
-//I've assigned an ID property so that it in be made as an ID in the <p> element
-//to make extraction of a specific question's answer easier.
+/*Constructor for questions which will be pushed into a Category's questionArray
+I've assigned an ID property so that it can be made as an ID in the <p> element
+to make extraction of a specific question's answer easier in future edits */
 function Question(id, question){
   this.id = id;
   this.question = question;
