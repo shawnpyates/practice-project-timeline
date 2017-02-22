@@ -91,7 +91,7 @@ putCategoriesInElement();
 
 
 
-
+//Take the username from import and write "(username)'s Timeline" as a heading
 $("button.usernameInput").click(function(){
   var $usernameInput = $("#usernameInput").val();
   $("#usernameInputDiv").hide();
